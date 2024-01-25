@@ -1,6 +1,10 @@
 @extends('layout')
+@section('')
 @section('title', 'Index')
 @section('content')
+<div>
+    <img src="{{asset('images/imgInicio.jpg')}}" alt="imagen de inicio" class="imgInicio">
+</div>
 <h1>Bienvenido a Delta Rayo DoradoFC</h1>
 @endsection
 
@@ -21,6 +25,7 @@
     Porro hic deleniti nesciunt fuga magni molestiae ipsa eaque necessitatibus optio officia.
     Providen eum non magnam animi, ad fugit adipisci? Expedita, minima!
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 
 </span>
 <br>
