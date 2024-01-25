@@ -1,4 +1,4 @@
-<img src="" alt="logo">
+<img src="{{asset('images/logo.png')}}" alt="logo del equipo" class="logo">
 <h2>Delta Rayo DoradoFC</h2>
 <nav>
     <a href="{{route('index')}}">Inicio</a>
