@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 })->name('index');
+
+
+//Rutas footer
+Route::view('footerInfo/contact', 'footerInfo.contact');
+
+Route::view('footerInfo/policy', 'footerInfo.policy');
+
+Route::view('footerInfo/privacy', 'footerInfo.privacy');
+
+Route::view('footerInfo/setting', 'footerInfo.setting');
+
+Route::view('footerInfo/terms', 'footerInfo.terms');

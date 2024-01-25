@@ -1,3 +1,5 @@
+<img src="" alt="logo">
+<h2>Delta Rayo DoradoFC</h2>
 <nav>
     <a href="{{route('index')}}">Inicio</a>
     <a href="">Jugadores</a>

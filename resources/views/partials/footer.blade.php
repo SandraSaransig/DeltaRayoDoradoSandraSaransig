@@ -2,10 +2,10 @@
     <h3>Delta Rayo DoradoFC</h3>
     <h3>Desarrollado por Sandra Saransig</h3>
     <div>
-        <a href="">Politica de cookies</a>
-        <a href="">Configuración de cookies</a>
-        <a href="">Politica de privacidad</a>
-        <a href="">Términos y condiciones de uso</a>
-        <a href="">Contacto</a>
+        <a href="{{url('footerInfo/policy')}}">Politica de cookies</a>
+        <a href="{{url('footerInfo/setting')}}">Configuración de cookies</a>
+        <a href="{{url('footerInfo/privacy')}}">Politica de privacidad</a>
+        <a href="{{url('footerInfo/terms')}}">Términos y condiciones de uso</a>
+        <a href="{{url('footerInfo/contact')}}">Contacto</a>
     </div>
 </footer>
