@@ -22,3 +22,15 @@ h1{
     height: auto;
     width: 100%;
 }
+
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.imgInicio{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}

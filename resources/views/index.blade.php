@@ -2,7 +2,7 @@
 @section('')
 @section('title', 'Index')
 @section('content')
-<div>
+<div class="Inicioimg">
     <img src="{{asset('images/imgInicio.jpg')}}" alt="imagen de inicio" class="imgInicio">
 </div>
 <h1>Bienvenido a Delta Rayo DoradoFC</h1>
