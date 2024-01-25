@@ -3,7 +3,7 @@ h1{
     text-align: center;
 }
 
-.container{
+/* .container{
     display: inline-block;
     padding: 50px;
     margin: 20px;
@@ -15,22 +15,96 @@ h1{
 .container .imagen{
     width: 50%;
     max-width: 350px;
-}
+} */
 
-
-.imagen{
-    height: auto;
-    width: 100%;
-}
-
-
-.logo{
-    width: 100px;
-    height: auto;
-}
 
 .imgInicio{
-    display: inline-block;
-    width: 30%;
+    margin: 0 auto;
     height: auto;
+    width: 100%;
+    display: block;
+}
+
+
+.divImg{
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.storm{
+    background-image: url('/images/yellow.gif');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/*Header*/
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.logoNav {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h2 {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*Footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer{
+    margin: 0;
+    font-size: 4em;
+    text-align: center;
+}
+
+footer h3 {
+    margin: 10px 0;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

@@ -3,7 +3,7 @@
 @section('title','Contacto')
 
 @section('content')
-<h1>Contacto</h1>
+<h1 class="footer">Contacto</h1>
 <span>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, laboriosam! Iure, necessitatibus veniam fuga vitae molestiae enim inventore, est recusandae aliquid laboriosam nostrum, nesciunt fugiat rerum. Amet cum enim labore.
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe obcaecati placeat necessitatibus neque voluptate dolores quasi ab error enim libero, porro repellat commodi ipsum omnis ea unde dolore architecto quia.

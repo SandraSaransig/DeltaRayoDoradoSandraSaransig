@@ -3,7 +3,7 @@
 @section('title','Contacto')
 
 @section('content')
-<h1>Términos y condiciones</h1>
+<h1 class="footer">Términos y condiciones</h1>
 <span>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex adipisci quod quis inventore enim accusantium repellendus, velit alias consequatur beatae deserunt maxime, eius minima facilis impedit. Sapiente, delectus dolorem.
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit est eos eius in. Ducimus voluptas expedita mollitia iste, reiciendis sequi tempore explicabo, repellendus consectetur, incidunt unde autem eligendi accusamus?

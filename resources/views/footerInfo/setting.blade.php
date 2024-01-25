@@ -3,7 +3,7 @@
 @section('title','Contacto')
 
 @section('content')
-<h1>Configuración de cookies</h1>
+<h1 class="footer">Configuración de cookies</h1>
 <span>
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur quo quod dolore eos autem quis accusantium? Aut ducimus reprehenderit laboriosam possimus, doloremque quod nostrum deleniti, cupiditate voluptatum hic quibusdam porro!
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed obcaecati quae veritatis? Ipsa veritatis qui blanditiis nemo sed vero dolorem, possimus, temporibus voluptate harum distinctio recusandae illum ut fugiat reprehenderit.

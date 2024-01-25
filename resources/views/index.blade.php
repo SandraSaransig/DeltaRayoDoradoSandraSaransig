@@ -2,10 +2,10 @@
 @section('')
 @section('title', 'Index')
 @section('content')
-<div class="Inicioimg">
+<div class="divImg">
     <img src="{{asset('images/imgInicio.jpg')}}" alt="imagen de inicio" class="imgInicio">
 </div>
-<h1>Bienvenido a Delta Rayo DoradoFC</h1>
+<h1  class="storm">Bienvenido a Delta Rayo DoradoFC</h1>
 @endsection
 
 @section('segment')

@@ -3,7 +3,7 @@
 @section('title','Contacto')
 
 @section('content')
-<h1>Politica de privacidad</h1>
+<h1 class="footer">Politica de privacidad</h1>
 <span>
     Repellat non vel ducimus qui ex? Error dicta, nostrum ipsa rerum praesentium ab nisi soluta excepturi modi. Laborum iste rem quidem non.
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore itaque praesentium totam dicta voluptate ipsam nam autem quae illo, similique porro. Assumenda atque harum adipisci neque quaerat aut at tempora.
