@@ -3,7 +3,7 @@
 @section('title','Contacto')
 
 @section('content')
-<h1>Politica de cookies</h1>
+<h1 class="footer">Politica de cookies</h1>
 <span>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat adipisci natus, animi suscipit iste corrupti accusamus aliquam exercitationem dolor sapiente laboriosam soluta dolores minima ex minus, architecto cumque labore nulla.
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat non vel ducimus qui ex? Error dicta, nostrum ipsa rerum praesentium ab nisi soluta excepturi modi. Laborum iste rem quidem non.

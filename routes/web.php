@@ -2,6 +2,11 @@
 
 use App\Http\Controllers\FooterInfoController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EventController;
+
+//Añadir para la solicitud HTTP y las redirecciones HTTP
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +36,17 @@ Route::get('footerinfo/setting', [FooterInfoController::class, 'setting'])->name
 Route::get('footerinfo/terms', [FooterInfoController::class, 'terms'])->name('footerinfo.terms');
 
 
-// Route::get('footerinfo/policy', function(){
+//Ruta Evento
+Route::resource('events', EventController::class)
+->parameters(['event'=>'slug'])
+->missing(function(Request $request){
+    return Redirect::route('events.index');
+});
+
+
+//Otra modo de rutas para el footer
+
+//Route::get('footerinfo/policy', function(){
 //     return view('footerinfo.policy');
 // })->name('footerinfo.policy');
 
