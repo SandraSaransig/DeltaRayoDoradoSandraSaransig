@@ -25,13 +25,12 @@ class EventRequest extends FormRequest
         return [
             //
             'name'=>'required|max:15',
-            'description'=>'required|string',
-            'location'=>'required|string',
+            'description'=>'required',
+            'location'=>'required',
             'date'=>'required|date',
             'hour'=>'required|date_format:H:i',
             'type'=>'required|in:official, exhibition,charity',
             'tags'=>'required|string',
-            'visible'=>'boolean',
 
         ];
     }

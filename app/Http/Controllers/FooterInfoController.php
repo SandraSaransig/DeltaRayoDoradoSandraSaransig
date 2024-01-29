@@ -8,22 +8,22 @@ class FooterInfoController extends Controller
 {
     //
     public function contact(){
-       return view('footerinfo.contact');
+       return view('footerInfo.contact');
     }
 
     public function policy(){
-        return view('footerinfo.policy');
+        return view('footerInfo.policy');
     }
 
     public function privacy(){
-        return view('footerinfo.privacy');
+        return view('footerInfo.privacy');
     }
 
     public function setting(){
-        return view('footerinfo.setting');
+        return view('footerInfo.setting');
     }
 
     public function terms(){
-        return view('footerinfo.terms');
+        return view('footerInfo.terms');
     }
 }

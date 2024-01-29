@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\EventRequest;
 use App\Models\Event;
 use Illuminate\Http\Request;
-use App\HTTP\Requests\EventRequest;
 use Illuminate\Support\Str;
 
 
@@ -16,7 +16,8 @@ class EventController extends Controller
     public function index()
     {
         //
-        return view('events.index');
+        $events = Event::where('visible',1)->paginate(6);
+        return view('events.index', compact('events'));
     }
 
     /**
@@ -37,7 +38,7 @@ class EventController extends Controller
         //
         $event = new Event();
         $event->name = $request->get('name');
-        $event->slug = Str::slug($event ->name);
+        $event->slug = Str::slug($event->name);
         $event->description = $request->get('description');
         $event->location = $request->get('location');
         $event->date = $request->get('date');
@@ -65,14 +66,17 @@ class EventController extends Controller
     public function edit(Event $event)
     {
         //
+        return view('events.edit', compact('event'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Event $event)
+    public function update(EventRequest $request, Event $event)
     {
         //
+
+
     }
 
     /**

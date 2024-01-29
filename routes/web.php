@@ -25,15 +25,15 @@ Route::get('/', function () {
 
 
 //Rutas footer
-Route::get('footerinfo/contact', [FooterInfoController::class, 'contact'])->name('footerinfo.contact');
+Route::get('footerInfo/contact', [FooterInfoController::class, 'contact'])->name('footerinfo.contact');
 
-Route::get('footerinfo/policy', [FooterInfoController::class, 'policy'])->name('footerinfo.policy');
+Route::get('footerInfo/policy', [FooterInfoController::class, 'policy'])->name('footerinfo.policy');
 
-Route::get('footerinfo/privacy', [FooterInfoController::class, 'privacy'])->name('footerinfo.privacy');
+Route::get('footerInfo/privacy', [FooterInfoController::class, 'privacy'])->name('footerinfo.privacy');
 
-Route::get('footerinfo/setting', [FooterInfoController::class, 'setting'])->name('footerinfo.setting');
+Route::get('footerInfo/setting', [FooterInfoController::class, 'setting'])->name('footerinfo.setting');
 
-Route::get('footerinfo/terms', [FooterInfoController::class, 'terms'])->name('footerinfo.terms');
+Route::get('footerInfo/terms', [FooterInfoController::class, 'terms'])->name('footerinfo.terms');
 
 
 //Ruta Evento
