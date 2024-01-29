@@ -1,4 +1,7 @@
-
+body{
+    height: 100%;
+    margin: 0;
+}
 h1{
     text-align: center;
 }
@@ -86,13 +89,16 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
 }
 
-.footer{
+/* .footer{
     margin: 0;
     font-size: 4em;
     text-align: center;
-}
+} */
 
 footer h3 {
     margin: 10px 0;

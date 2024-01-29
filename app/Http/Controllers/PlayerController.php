@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Envent;
+use App\Models\Player;
 use Illuminate\Http\Request;
 
-class EnventController extends Controller
+class PlayerController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class EnventController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Envent $envent)
+    public function show(Player $player)
     {
         //
     }
@@ -42,7 +42,7 @@ class EnventController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Envent $envent)
+    public function edit(Player $player)
     {
         //
     }
@@ -50,7 +50,7 @@ class EnventController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Envent $envent)
+    public function update(Request $request, Player $player)
     {
         //
     }
@@ -58,7 +58,7 @@ class EnventController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Envent $envent)
+    public function destroy(Player $player)
     {
         //
     }
